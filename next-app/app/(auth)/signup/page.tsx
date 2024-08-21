@@ -1,3 +1,5 @@
-export default function Signup() {
-  return <div>Hello World</div>;
+import { Signup } from "@/components/Signup";
+
+export default function () {
+  return <Signup />;
 }
